@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coWIN</title>
+
+    <link rel="stylesheet" href="webpage.css">
+
+</head>
+<body>
+
+    <!--HEADER FILE-->
+    <nav class="navbar">
+        <h2>Check Your Nearest Vaccination Center And Slots Availability</h2>
+        <ul class="navlist">
+            <li class="nav-elements1" id="pin" onclick="pin()">Search by PIN</li>
+            <li class="nav-elements2" id="district" onclick="district()">Search by District</li>
+            <li class="nav-elements3" id="map" onclick="map()">Search by MAP</li>
+        </ul>
+       <!-- <ul class="nav-underline">
+            <li class="underline" id="underline1"></li>
+            <li class="underline" id="underline2"></li>
+            <li class="underline" id="underline3"></li>
+        </ul>-->
+        <div class="search-bar" onclick="myFunction(this)">
+        <input type="text" id="text" placeholder="Enter your PIN"></input>
+        <input type="text" id="district-text" placeholder="Enter your district"></input>
+        
+        <button class="search" type="button">SEARCH</button>
+        </div>
+    </nav>
+    
+    <!--SECOND PART OF THE MAIN PAGE-->
+    <div>
+        <div class="SecondHeading">How To Get Your Vaccination</div>
+        <ul class="images">
+            <li>
+                <img src="images/vaccination1.jpg">
+            </li>
+            <li>
+                <img src="images/vaccination2.jpg">
+            </li>
+            <li>
+                <img src="images/vaccination3.jpg">
+            </li>
+        </ul>
+        <ul class="text-box">
+            <li class="corner-text1">
+                <div class="textInBox">Book An Appointment On CoWIN or Walk Into Any
+                Vaccination Center
+                <div class="link"><a href="#">HOW TO BOOK YOUR APPOINTMENT ON COWIN</a></div>
+               </div>
+            </li>
+            <li class="middle-text">
+                <div class="textInBox">Get Your Vaccination Safely at the Time of Your Appointment
+                    <div class="link"><a href="#">DO'S AND DONT'S FOR GETTING VACCINATED</a></div>
+                </div>
+            </li>
+            <li class="corner-text3">
+                <div class="textInBox">Download Your Vaccination Certificate from CoWIN 
+                and Wait for Dose #2 
+                 <div class="link"><a href="#">DOWNLOAD YOUR VACCINE CERTIFICATE</a></div>
+               </div>
+            </li>
+        </ul>
+    </div>
+
+    <script src="webpage.js"></script>
+
+</body>
+</html>
